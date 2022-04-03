@@ -1,0 +1,15 @@
+E:\Git\euler-solutions\cs\fibonacci\obj\Debug\net6.0\fibonacci.csproj.AssemblyReference.cache
+E:\Git\euler-solutions\cs\fibonacci\obj\Debug\net6.0\fibonacci.GeneratedMSBuildEditorConfig.editorconfig
+E:\Git\euler-solutions\cs\fibonacci\obj\Debug\net6.0\fibonacci.AssemblyInfoInputs.cache
+E:\Git\euler-solutions\cs\fibonacci\obj\Debug\net6.0\fibonacci.AssemblyInfo.cs
+E:\Git\euler-solutions\cs\fibonacci\obj\Debug\net6.0\fibonacci.csproj.CoreCompileInputs.cache
+E:\Git\euler-solutions\cs\fibonacci\bin\Debug\net6.0\fibonacci.exe
+E:\Git\euler-solutions\cs\fibonacci\bin\Debug\net6.0\fibonacci.deps.json
+E:\Git\euler-solutions\cs\fibonacci\bin\Debug\net6.0\fibonacci.runtimeconfig.json
+E:\Git\euler-solutions\cs\fibonacci\bin\Debug\net6.0\fibonacci.dll
+E:\Git\euler-solutions\cs\fibonacci\bin\Debug\net6.0\fibonacci.pdb
+E:\Git\euler-solutions\cs\fibonacci\obj\Debug\net6.0\fibonacci.dll
+E:\Git\euler-solutions\cs\fibonacci\obj\Debug\net6.0\refint\fibonacci.dll
+E:\Git\euler-solutions\cs\fibonacci\obj\Debug\net6.0\fibonacci.pdb
+E:\Git\euler-solutions\cs\fibonacci\obj\Debug\net6.0\fibonacci.genruntimeconfig.cache
+E:\Git\euler-solutions\cs\fibonacci\obj\Debug\net6.0\ref\fibonacci.dll

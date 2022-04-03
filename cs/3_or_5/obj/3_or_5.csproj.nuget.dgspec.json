@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Git\\euler-solutions\\cs\\cs.csproj": {}
+    "E:\\Git\\euler-solutions\\cs\\3_or_5\\3_or_5.csproj": {}
   },
   "projects": {
-    "E:\\Git\\euler-solutions\\cs\\cs.csproj": {
+    "E:\\Git\\euler-solutions\\cs\\3_or_5\\3_or_5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Git\\euler-solutions\\cs\\cs.csproj",
-        "projectName": "cs",
-        "projectPath": "E:\\Git\\euler-solutions\\cs\\cs.csproj",
+        "projectUniqueName": "E:\\Git\\euler-solutions\\cs\\3_or_5\\3_or_5.csproj",
+        "projectName": "3_or_5",
+        "projectPath": "E:\\Git\\euler-solutions\\cs\\3_or_5\\3_or_5.csproj",
         "packagesPath": "C:\\Users\\Tyler\\.nuget\\packages\\",
-        "outputPath": "E:\\Git\\euler-solutions\\cs\\obj\\",
+        "outputPath": "E:\\Git\\euler-solutions\\cs\\3_or_5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tyler\\AppData\\Roaming\\NuGet\\NuGet.Config",
