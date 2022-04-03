@@ -1,0 +1,15 @@
+E:\Git\euler-solutions\cs\LargestPalindrome\bin\Debug\net6.0\LargestPalindrome.exe
+E:\Git\euler-solutions\cs\LargestPalindrome\bin\Debug\net6.0\LargestPalindrome.deps.json
+E:\Git\euler-solutions\cs\LargestPalindrome\bin\Debug\net6.0\LargestPalindrome.runtimeconfig.json
+E:\Git\euler-solutions\cs\LargestPalindrome\bin\Debug\net6.0\LargestPalindrome.dll
+E:\Git\euler-solutions\cs\LargestPalindrome\bin\Debug\net6.0\LargestPalindrome.pdb
+E:\Git\euler-solutions\cs\LargestPalindrome\obj\Debug\net6.0\LargestPalindrome.csproj.AssemblyReference.cache
+E:\Git\euler-solutions\cs\LargestPalindrome\obj\Debug\net6.0\LargestPalindrome.GeneratedMSBuildEditorConfig.editorconfig
+E:\Git\euler-solutions\cs\LargestPalindrome\obj\Debug\net6.0\LargestPalindrome.AssemblyInfoInputs.cache
+E:\Git\euler-solutions\cs\LargestPalindrome\obj\Debug\net6.0\LargestPalindrome.AssemblyInfo.cs
+E:\Git\euler-solutions\cs\LargestPalindrome\obj\Debug\net6.0\LargestPalindrome.csproj.CoreCompileInputs.cache
+E:\Git\euler-solutions\cs\LargestPalindrome\obj\Debug\net6.0\LargestPalindrome.dll
+E:\Git\euler-solutions\cs\LargestPalindrome\obj\Debug\net6.0\refint\LargestPalindrome.dll
+E:\Git\euler-solutions\cs\LargestPalindrome\obj\Debug\net6.0\LargestPalindrome.pdb
+E:\Git\euler-solutions\cs\LargestPalindrome\obj\Debug\net6.0\LargestPalindrome.genruntimeconfig.cache
+E:\Git\euler-solutions\cs\LargestPalindrome\obj\Debug\net6.0\ref\LargestPalindrome.dll

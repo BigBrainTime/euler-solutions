@@ -17,5 +17,11 @@ def cbreak(a,b,c):
 for a in range(1000):
     for b in range(1000):
         for c in range(1000):
-            print(a,b,c,prod)
-            cbreak(a,b,c)
+            if a + b + c == 1000:
+                cbreak(a,b,c)
+                break
+        if prod != 1:
+            break
+    if prod != 1:
+        break
+                
