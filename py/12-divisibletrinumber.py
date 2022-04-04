@@ -1,7 +1,7 @@
 #Takes way too long but works
 check = True
 it = 2
-div = 5
+div = 500
 
 def generate(n):
     return sum(range(n+1))
