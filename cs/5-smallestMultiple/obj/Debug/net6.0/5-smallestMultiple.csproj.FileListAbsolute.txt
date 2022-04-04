@@ -1,0 +1,15 @@
+E:\Git\euler-solutions\cs\5-smallestMultiple\obj\Debug\net6.0\5-smallestMultiple.csproj.AssemblyReference.cache
+E:\Git\euler-solutions\cs\5-smallestMultiple\obj\Debug\net6.0\5-smallestMultiple.GeneratedMSBuildEditorConfig.editorconfig
+E:\Git\euler-solutions\cs\5-smallestMultiple\obj\Debug\net6.0\5-smallestMultiple.AssemblyInfoInputs.cache
+E:\Git\euler-solutions\cs\5-smallestMultiple\obj\Debug\net6.0\5-smallestMultiple.AssemblyInfo.cs
+E:\Git\euler-solutions\cs\5-smallestMultiple\obj\Debug\net6.0\5-smallestMultiple.csproj.CoreCompileInputs.cache
+E:\Git\euler-solutions\cs\5-smallestMultiple\bin\Debug\net6.0\5-smallestMultiple.exe
+E:\Git\euler-solutions\cs\5-smallestMultiple\bin\Debug\net6.0\5-smallestMultiple.deps.json
+E:\Git\euler-solutions\cs\5-smallestMultiple\bin\Debug\net6.0\5-smallestMultiple.runtimeconfig.json
+E:\Git\euler-solutions\cs\5-smallestMultiple\bin\Debug\net6.0\5-smallestMultiple.dll
+E:\Git\euler-solutions\cs\5-smallestMultiple\bin\Debug\net6.0\5-smallestMultiple.pdb
+E:\Git\euler-solutions\cs\5-smallestMultiple\obj\Debug\net6.0\5-smallestMultiple.dll
+E:\Git\euler-solutions\cs\5-smallestMultiple\obj\Debug\net6.0\refint\5-smallestMultiple.dll
+E:\Git\euler-solutions\cs\5-smallestMultiple\obj\Debug\net6.0\5-smallestMultiple.pdb
+E:\Git\euler-solutions\cs\5-smallestMultiple\obj\Debug\net6.0\5-smallestMultiple.genruntimeconfig.cache
+E:\Git\euler-solutions\cs\5-smallestMultiple\obj\Debug\net6.0\ref\5-smallestMultiple.dll

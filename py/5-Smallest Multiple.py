@@ -7,12 +7,12 @@ while check:
 
     for i in range(len(divcheck)):
         if it%(divcheck[i]) == 0:
-            boolcheck.append('True')
+            boolcheck.append(True)
         else:
-            boolcheck.append('False')
+            boolcheck.append(False)
             break
 
-    if 'False' not in boolcheck:
+    if False not in boolcheck:
         check = False
         print(it,'has passed')
 
