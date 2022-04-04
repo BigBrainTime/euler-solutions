@@ -1,3 +1,4 @@
+#Takes about 10-11 hours - needs optimizing
 import threading
 value = 2000000
 threads = 10
