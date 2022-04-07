@@ -1,9 +1,8 @@
 List<int> nums = new List<int>{1,2};
 int num = 3;
 int sum = 2;
-int i;
 
-for (i = 0; num < 4000000; i++)
+for (int i = 0; num < 4000000; i++)
 {
     num = nums[i] + nums[i + 1];
     nums.Add(num);
