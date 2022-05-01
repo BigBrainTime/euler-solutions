@@ -2,7 +2,7 @@ prime = 0
 primes = []
 n = 2
 
-while prime < 10002: #one extra bc for some reason 4 is counted as a prime
+while prime < 10001:
     boolcheck = []
 
     if len(primes) <= 10:
@@ -26,7 +26,7 @@ while prime < 10002: #one extra bc for some reason 4 is counted as a prime
                 boolcheck.append(True)
 
 
-    if False not in boolcheck:
+    if False not in boolcheck and n != 4:
         prime += 1
 
     n += 1

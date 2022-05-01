@@ -1,40 +1,33 @@
-#Takes about 10-11 hours - needs optimizing
-import threading
 value = 2000000
-threads = 10
-sums = [2]
-n = 3
+primes = []
+n = 2
 
-def isprime(start, end):
-    lsum = 0
-    for k in range(start, end, 2):
-        boolcheck = []
+while n < value:
+    boolcheck = []
 
-        for i in range(2,k//2):
-            if k % i == 0:
+    if len(primes) <= 10:
+        for i in range(2,n//2):
+            if n % i == 0:
+                #divideable
                 boolcheck.append(False)
                 break
 
             else:
                 boolcheck.append(True)
 
-        if False not in boolcheck:
-            lsum += k
-    sums.append(lsum)
-    
+    else:
+        for i in primes:
+            if n % i == 0:
+                #divideable
+                boolcheck.append(False)
+                break
 
-ends = []
-starts = []
-for x in range(threads):
-    ends.append((value//threads)*(x+1))
-    starts.append(((value//threads)*x)+1)
-starts[0] = n
+            else:
+                boolcheck.append(True)
 
-for t in range(threads):
-    globals()[f"thread_{t}"] = threading.Thread(target=(isprime), args=(starts[t], ends[t]))
-    globals()[f"thread_{t}"].start()
+    if False not in boolcheck and n != 4:
+        primes.append(n)
 
-for t in range(threads):
-    globals()[f"thread_{t}"].join()
+    n+=1
 
-print(sum(sums))
+print(sum(primes))
