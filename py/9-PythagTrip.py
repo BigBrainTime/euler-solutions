@@ -1,3 +1,4 @@
+
 pth = []
 prod = 1
 
@@ -16,12 +17,9 @@ def cbreak(a,b,c):
 
 for a in range(1000):
     for b in range(1000):
-        for c in range(1000):
-            if a + b + c == 1000:
-                cbreak(a,b,c)
-                break
+        cbreak(a,b,1000-(a+b))
+        
         if prod != 1:
             break
     if prod != 1:
         break
-                
