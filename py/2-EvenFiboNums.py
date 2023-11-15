@@ -1,18 +1,14 @@
 list = [1, 2]
-list2 = []
+total = 0
 it = 0
-check = True
+num=0
 
-
-while check:
+while num < 4000000:
     num = list[it] + list[it+1]
 
-    if num < 4000000:
-        list.append(num)
-        if num%2 == 0:
-            list2.append(num)
+    list.append(num)
+    total += num*int(not bool(num%2))
 
-    else:
-        print(sum(list2))
-        check = False
     it += 1
+
+print(total)

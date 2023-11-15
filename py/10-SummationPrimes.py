@@ -5,27 +5,12 @@ n = 2
 while n < value:
     boolcheck = []
 
-    if len(primes) <= 10:
-        for i in range(2,n//2):
-            if n % i == 0:
-                #divideable
-                boolcheck.append(False)
-                break
+    for i in primes:
+        boolcheck.append(bool(n % i))
+        if not boolcheck[-1]:
+            break
 
-            else:
-                boolcheck.append(True)
-
-    else:
-        for i in primes:
-            if n % i == 0:
-                #divideable
-                boolcheck.append(False)
-                break
-
-            else:
-                boolcheck.append(True)
-
-    if False not in boolcheck and n != 4:
+    if False not in boolcheck:
         primes.append(n)
 
     n+=1

@@ -9,11 +9,9 @@ def pull(n):
         data = url.readlines()
 
     for num in data:
-        temp = str(num).replace('<p class="monospace center">',"").replace("<br />\\n'","").replace("<br /></div>\\n'","").replace("<br /></p>\\n'","").replace("b'<p>","").replace("</p>\\n'","").replace("<br />\n'","").replace("b'","").replace("<br />","").replace("</p>","").replace(" ","")
-
+        temp = str(num).replace('<p class="monospace center">', "").replace("<br />\\n'", "").replace("<br /></div>\\n'", "").replace("<br /></p>\\n'", "").replace("b'<p>","").replace("</p>\\n'", "").replace("<br />\n'", "").replace("b'", "").replace("<br />", "").replace("</p>", "").replace(" ", "").replace('<br>', '').replace("\\n'", '')
         try:   
             raw.append(int(temp))
         except:
             pass
-
     return raw

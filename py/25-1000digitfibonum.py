@@ -1,12 +1,11 @@
 list = [1, 1]
 it = 0
-check = True
+num=2
 
-while check:
+while len(str(num)) < 1000:
     num = list[it] + list[it+1]
     list.append(num)
-    if len(str(num)) >= 1000:
-        print(list.index(num)+1)
-        check = False
 
     it += 1
+
+print(list.index(num)+1)

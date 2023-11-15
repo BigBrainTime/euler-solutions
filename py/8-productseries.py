@@ -2,7 +2,6 @@ import math
 import RequestPull
 
 raw = RequestPull.pull(8)
-
 big_number = ''
 for num in raw:
     big_number += str(num)
