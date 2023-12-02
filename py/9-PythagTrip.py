@@ -1,22 +1,6 @@
-pth = []
-prod = 1
-
-def cbreak(a, b, c):
-    global pth, prod
-
-    if a**2 + b**2 == c**2 and a + b + c == 1000 and a > 0 and b > 0 and c > 0 and pth == []:
-        pth = [a, b, c]
-
-        for i in range(3):
-            prod *= pth[i]
-
-        print(prod)
-
-for a in range(1000):
-    for b in range(1000):
-        cbreak(a, b, 1000-(a+b))
-
-        if prod != 1:
-            break
-    if prod != 1:
-        break
+for a in range(1,1000):
+    for b in range(1,1000):
+        c=1000-(a+b)
+        if a**2 + b**2 == c**2 and a + b + c == 1000:
+            print(a*b*c)
+            quit()

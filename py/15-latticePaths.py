@@ -1,23 +1,10 @@
 #In Progress
+#Works for 1 and 2 breaks at 3 on
+x_size = 3
+y_size = 3
 
-grid = []
-size = 2
-paths = 0
-prevpath = [] #True is right, False is down
+x_paths = (1 << x_size)-1
+y_paths = (1 << y_size)-1
 
-for i in range(size):
-    row = []
-    for k in range(size):
-       row.append([i,k])
-    grid.append(row)
-del row
-
-for i in range(size**2):
-    curpath = []
-    if prevpath == []:
-        for k in range(size):
-            curpath.append(True)
-        for k in range(size):
-            curpath.append(False)
-    prevpath = curpath
-    print(prevpath)
+paths = x_paths+y_paths
+print(paths)

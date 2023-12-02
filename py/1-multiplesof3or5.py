@@ -1,9 +1,9 @@
 start = [3, 5]
 list = []
 
-for i in reversed(range(1000)):
+for i in range(1000):
     for value in start:
-        if i % value == 0 and i % value not in list:
+        if i % value == 0:
             list.append(i)
             break
 

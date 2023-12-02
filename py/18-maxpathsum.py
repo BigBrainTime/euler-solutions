@@ -3,15 +3,14 @@ import RequestPull, textwrap
 
 tri = RequestPull.pull(18)
 high = 0
+rows = []
 
-for i in range(len(tri)):
+for i in range(3):
     tem = str(tri[i])
     if len(tem) % 2 == 0:
-        globals()[f"row{i}"] = textwrap.wrap(tem, 2)
+        row = textwrap.wrap(tem, 2)
     else:
-        globals()[f"row{i}"] = textwrap.wrap(f"0{tem}", 2)
-    globals()[f"row{i}"] = list(map(int, globals()[f"row{i}"]))
+        row = textwrap.wrap(f"0{tem}", 2)
+    rows.append(list(map(int, row)))
 
-    
-
-print(high)
+print(rows)

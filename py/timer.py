@@ -15,7 +15,7 @@ while True and auto == 'n':
 if auto=='n':
     quit()
 
-for file in ('timer.py','test.py','__pycache__','RequestPull.py'):
+for file in ('timer.py','test.py','__pycache__','RequestPull.py','primes.py','primes.txt'):
     dir.remove(file)
 
 files = []

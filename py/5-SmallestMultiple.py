@@ -1,8 +1,7 @@
-check = True
 it = 20
 divcheck = [11,12,13,14,15,16,17,18,19]
 
-while check:
+while True:
     boolcheck = []
 
     for div in divcheck:
@@ -10,8 +9,8 @@ while check:
         if not boolcheck[-1]:
             break
 
-    if False not in boolcheck:
-        check = False
+    if boolcheck[-1]:
         print(it)
+        quit()
 
     it += 20
