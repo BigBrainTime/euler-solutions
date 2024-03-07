@@ -1,4 +1,5 @@
 import os
+from math import sqrt
 
 def get_primes():
     with open(os.path.join(os.getcwd(), 'py', 'primes.txt'), 'r') as file:
@@ -6,20 +7,20 @@ def get_primes():
 
 def next_prime():
     primes = get_primes()
-    p = int(primes[-1])
+    prime = int(primes[-1])
     l = len(primes)
     while l == len(primes):
-        boolcheck = []
-        p += 2
+        boolcheck = True
+        prime += 2
         for i in primes:
-            boolcheck.append(bool(p % i))
-            if not boolcheck[-1] or i >= p//2+1:
+            boolcheck = bool(prime % i)
+            if not boolcheck or i >= sqrt(prime):
                 break
 
-        if boolcheck[-1]:
-            primes.append(p)
+        if boolcheck:
+            primes.append(prime)
     with open(os.path.join(os.getcwd(), 'py', 'primes.txt'), 'a') as file:
-        file.write(f'{p}\n')
+        file.write(f'{prime}\n')
     return primes
 
 def get_prime(nth):
@@ -39,17 +40,17 @@ def is_prime(value):
         return True
     except ValueError:
         pass
-    while primes[-1] < value//2+1:
+    while primes[-1] < sqrt(value):
         primes=next_prime()
 
-    boolcheck = []
+    boolcheck = True
 
     for i in primes:
-        boolcheck.append(bool(value % i))
-        if not boolcheck[-1] or i >= value//2+1:
+        boolcheck=(bool(value % i))
+        if not boolcheck or i >= sqrt(value):
             break
 
-    if boolcheck[-1]:
+    if boolcheck:
         return True
     return False
 
@@ -64,9 +65,9 @@ def find_nth_value(value, direction='<'):
 
     while not is_prime(value):
         if direction == '<':
-            value -= 1
+            value -= 2
         elif direction == '>':
-            value += 1
+            value += 2
 
     primes = get_primes()
 
